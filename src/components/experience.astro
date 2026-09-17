@@ -1,0 +1,77 @@
+---
+interface Entry {
+  title: string;
+  company: string;
+  date: string;
+  tools: string[];
+}
+
+const entries: Entry[] = [
+  {
+    title: "ibis acam Bildungs GmbH",
+    company: "Lehre Applikationsentwickler",
+    date: "02/2025 – present",
+    tools: ["Python", "PHP", "C#"],
+  },
+  {
+    title: "42 Vienna",
+    company: "Coding Bootcamp",
+    date: "01/2024 - 02/2024",
+    tools: ["C", "Shell", "Git", "Linux"],
+  },
+  {
+    title: "Flavio Copes",
+    company: "Online Coding Bootcamp",
+    date: "01/2023 - 03/2023",
+    tools: ["HTML", "CSS", "Tailwind", "JS", "Node.js", "Next.js", "React", "Prisma", "NextAuth"],
+  },
+    {
+    title: "IT-Schule der Schule des bfi",
+    company: "Student",
+    date: "09/2021 - 06/2022",
+    tools: ["AS/400", "RPG", "PHP", "SQL"],
+  },
+];
+---
+
+<section
+  id="experience"
+  class="py-12 border-t border-[#ffffff10] text-[var(--white)]"
+>
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">My journey</h2>
+    <h3 class="text-4xl md:text-5xl font-medium mb-8">Experience</h3>
+
+    <div class="relative pl-10 md:pl-12">
+      <div
+        class="absolute left-[7px] md:left-[9px] top-2 bottom-2 w-px bg-[var(--white-icon-tr)]"
+      >
+      </div>
+
+      {
+        entries.map((entry) => (
+          <div class="relative pb-12 last:pb-0">
+            <span class="absolute -left-10 md:-left-12 top-1 size-4 rounded-full border-2 border-[var(--white)] bg-[var(--background)]" />
+            <div class="space-y-1">
+              <h4 class="text-xl md:text-2xl font-semibold">
+                {entry.title}
+                <span class="text-[var(--white-icon)] font-normal">
+                  {" "}
+                  — {entry.date}
+                </span>
+              </h4>
+              <p class="text-[var(--white-icon)]">{entry.company}</p>
+              <div class="flex flex-wrap gap-2 pt-2">
+                {entry.tools.map((tool) => (
+                  <span class="text-xs px-2 py-1 rounded-full bg-[#1414149c] border border-[var(--white-icon-tr)] text-[var(--white-icon)]">
+                    {tool}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

@@ -4,38 +4,35 @@ interface Project {
   title: string;
   image: string;
   link: string;
-  preview: string;
+  preview?: string;
   status: string;
 }
 
 const projects: Project[] = [
   {
-    title: "Project One",
-    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+One",
-    link: "https://github.com",
-    preview: "https://example.com",
+    title: "Flock-App (Navigation + Chat App)",
+    image: "https://img.magnific.com/premium-vector/flying-birds-flock-silhouette-swallows-sea-gull-marine-birds-isolated-white-background-vector-bird-icon-set-flock-flying-sky_176516-1346.jpg",
+    link: "https://github.com/3Tamao3/Flock-App",
+    status: "Done",
+  },
+  {
+    title: "Bank-Managment-System",
+    image: "https://private-user-images.githubusercontent.com/95978838/326641868-84459cc4-cb4d-45e8-8650-21acad4ef00a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODkxMTcyNDksIm5iZiI6MTc4OTExNjk0OSwicGF0aCI6Ii85NTk3ODgzOC8zMjY2NDE4NjgtODQ0NTljYzQtY2I0ZC00NWU4LTg2NTAtMjFhY2FkNGVmMDBhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA5MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwOTExVDA4NTU0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJkMmI0NWI1ZThlMzM4MWIyNmU4YzAxOTI1ZDUwZDZhMmRlNjc4YjRhMDYxNzRmNTcyN2NkN2Y5N2Q5ZGI4NzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.AlMgh2DrjXJEE5Q2WwS8Qh9jkY9cEdaiMVW2OeHPsKU",
+    link: "https://github.com/3Tamao3/Bank-Managment-System",
+    status: "Done",
+  },
+  {
+    title: "Crypto-Tracking",
+    image: "https://private-user-images.githubusercontent.com/95978838/327068647-99537b8e-2911-4ad7-861c-e2f1ea859f2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODkxMTc3MDEsIm5iZiI6MTc4OTExNzQwMSwicGF0aCI6Ii85NTk3ODgzOC8zMjcwNjg2NDctOTk1MzdiOGUtMjkxMS00YWQ3LTg2MWMtZTJmMWVhODU5ZjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA5MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwOTExVDA5MDMyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJhM2EwYzQ3OWMyYjdkYjk3YzViMDQyNDdmYTc1NzZkYTdlYmFkNTYzY2ZkNjYyMjQ0NWQyMWJlNzc2Y2Y0ZDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.pMt5WHzQ3IeIngekDan-FGsspaivqhXnSSszLUCHnX4",
+    link: "https://github.com/3Tamao3/Crypto-Tracking",
+    preview: "https://ephemeral-kashata-6607c5.netlify.app",
     status: "Deployed",
   },
   {
-    title: "Project Two",
-    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Two",
-    link: "https://github.com",
-    preview: "https://example.com",
-    status: "On Development",
-  },
-  {
-    title: "Project Three",
-    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Three",
-    link: "https://github.com",
-    preview: "https://example.com",
-    status: "Contributor",
-  },
-  {
-    title: "Project Four",
-    image: "https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Four",
-    link: "https://github.com",
-    preview: "https://example.com",
-    status: "Deployed",
+    title: "Simple-Keylogger",
+    image: "https://img.magnific.com/premium-vector/keyboard-colored-vector-icon-white-background_268104-25007.jpg?semt=ais_hybrid&w=740&q=80",
+    link: "https://github.com/3Tamao3/Keylogger",
+    status: "Done",
   },
 ];
 ---
@@ -52,42 +49,37 @@ const projects: Project[] = [
       {
         projects.map((project) => (
           <div class="group">
-            <a
-              href={project.preview}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block"
-            >
-              <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+            <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+              <img
+                src={project.image}
+                alt={project.title}
+                class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div class="flex items-center px-3">
+              <div class="flex-grow">
+                <h4 class="text-2xl font-semibold">{project.title}</h4>
+                <span class="py-1 text-sm text-[var(--white-icon)]">
+                  {project.status}
+                </span>
               </div>
-              <div class="flex items-center px-3">
-                <div class="flex-grow">
-                  <h4 class="text-2xl font-semibold">{project.title}</h4>
-                  <span class="py-1 text-sm text-[var(--white-icon)]">
-                    {project.status}
-                  </span>
-                </div>
-                <div class="flex gap-2 ml-auto">
-                  <a
-                    target="_blank"
-                    href={project.link}
-                    aria-label="GitHub"
-                    class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+              <div class="flex gap-2 ml-auto">
+                <a
+                  target="_blank"
+                  href={project.link}
+                  aria-label="GitHub"
+                  class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-7"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      class="size-7"
-                    >
-                      <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z" />
-                    </svg>
-                  </a>
+                    <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z" />
+                  </svg>
+                </a>
+                {project.preview && (
                   <a
                     target="_blank"
                     href={project.preview}
@@ -103,16 +95,16 @@ const projects: Project[] = [
                       <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z" />
                     </svg>
                   </a>
-                </div>
+                )}
               </div>
-            </a>
+            </div>
           </div>
         ))
       }
     </div>
     <a
       target="_blank"
-      href="https://github.com"
+      href="https://github.com/3Tamao3?tab=repositories"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >

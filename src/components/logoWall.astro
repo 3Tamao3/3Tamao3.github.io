@@ -1,19 +1,22 @@
 ---
 const technologies = [
-  "astro",
-  "vue",
-  "react",
   "typeScript",
-  "tailwindcss",
-  "next",
-  "nodejs",
   "HTML5",
   "CSS3",
-  "javaScript",
-  "git",
-  "supabase",
+  "csharp",
+  "c",
+  "python",
+  "react",
+  "next",
+  "tailwindcss",
+  "nodejs",
   "mysql",
+  "git",
   "bash",
+  "vSCode",
+  "visual Studio",
+  "nvim",
+  "debian",
 ];
 ---
 
@@ -29,7 +32,7 @@ const technologies = [
           aria-hidden={index >= technologies.length ? "true" : "false"}
         >
           <img
-            src={`/svg/${tech}.svg`}
+            src={`${import.meta.env.BASE_URL}svg/${tech}.svg`}
             alt={tech}
             class="h-7 w-auto object-contain transition-transform group-hover:scale-110 opacity-60"
             width="30"

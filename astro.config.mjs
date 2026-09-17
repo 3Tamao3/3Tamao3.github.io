@@ -15,6 +15,7 @@ export default defineConfig({
       },
     },
   },
+  site: "https://3tamao3.github.io",
   output: "static",
   build: {
     inlineStylesheets: "auto",
