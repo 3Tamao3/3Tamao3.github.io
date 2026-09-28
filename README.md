@@ -2,8 +2,6 @@
 
 > My personal portfolio site, built on top of the [Dark Minimal](https://astro.build/themes/details/darkminimal/) Astro theme.
 
-![Deploy Status](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
-
 [GitHub](https://github.com/3Tamao3) | [LinkedIn](https://www.linkedin.com/in/rene-%C3%B6-17b263232/)
 
 ## **Features**
