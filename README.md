@@ -8,10 +8,7 @@
 
 ---
 
-[Live site](https://darkminimal.vercel.app) | [GitHub](https://github.com/3Tamao3) | [LinkedIn](https://www.linkedin.com/in/rene-%C3%B6-17b263232/)
-
-## **About**
-This site is built with the [Dark Minimal](https://astro.build/themes/details/darkminimal/) Astro theme, then customized with my own content, projects, and experience.
+[GitHub](https://github.com/3Tamao3) | [LinkedIn](https://www.linkedin.com/in/rene-%C3%B6-17b263232/)
 
 ## **Features**
 - **Blazing fast performance** powered by Astro
@@ -33,55 +30,5 @@ This site is built with the [Dark Minimal](https://astro.build/themes/details/da
 ### **Backend / Services**
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
 ![Formspree](https://img.shields.io/badge/Formspree-E21A28?logo=formspree&logoColor=white)
-
-## **Project structure**
-```text
-public/
-└── svg/
-src/
-├── components/
-|    ├── contact.astro
-|    ├── experience.astro
-|    ├── footer.astro
-|    ├── home.astro
-|    ├── logoWall.astro
-|    ├── nav.astro
-|    └── projects.astro
-├── layouts/
-|    └── Layout.astro
-├── React/
-|    ├── LetterGlitch.tsx
-|    ├── LikeButton.tsx
-|    └── SkillsList.tsx
-├── pages/
-|    └── index.astro
-└── firebase.ts
-```
-
-## **Local setup**
-
-### Prerequisites
-- **Node.js** (v20 or higher)
-- **pnpm**
-
-1. Clone the repo:
-```bash
-git clone https://github.com/Gothsec/dark-minimal
-```
-2. Install dependencies:
-```bash
-pnpm install
-```
-3. Copy the environment file and fill in your Firebase credentials (used by the like counter):
-```bash
-cp .env.example .env
-```
-4. Start the development server:
-```bash
-pnpm dev
-```
-
-## **Deployment**
-This project is built with Astro and deployed to [Vercel](https://vercel.com/).
 
 > Built on the [Dark Minimal](https://astro.build/themes/details/darkminimal/) Astro theme, licensed under the [MIT License](https://opensource.org/licenses/mit).
